@@ -1,19 +1,85 @@
-A simple PHP program demonstrating basic string manipulation using built-in PHP functions.
+# 📄 PHP String Functions Program
 
-## 📌 Overview
+---
 
-This project performs different operations on the string:
+## 🌟 Project Overview
+
+This project demonstrates how to perform **basic string manipulation** using built-in **PHP string functions**.
+
+The program uses the string:
 
 `PHP Programming`
 
-The program displays:
+and performs operations such as:
 
-* Original String
-* String Length
-* Reversed String
-* Substring Extraction
+* Display Original String
+* Find String Length
+* Reverse the String
+* Extract Substring
 
-## 💻 Source Code
+---
+
+## 🎯 Objective
+
+✔ Understand string handling in PHP
+✔ Learn built-in PHP string functions
+✔ Perform common string operations
+✔ Display dynamic output using PHP
+
+---
+
+## 🛠️ Technologies Used
+
+* 🐘 **PHP**
+* 💻 **XAMPP / WAMP Server**
+* 🌐 **Web Browser**
+* 🧾 **Text Editor / VS Code**
+
+---
+
+## ⚙️ Working Principle
+
+### 🔹 Step 1 — Create a String Variable
+
+The string is stored in a PHP variable.
+
+```php
+$str = "PHP Programming";
+```
+
+---
+
+### 🔹 Step 2 — Find String Length
+
+The `strlen()` function returns the total number of characters.
+
+```php
+strlen($str);
+```
+
+---
+
+### 🔹 Step 3 — Reverse the String
+
+The `strrev()` function reverses the text.
+
+```php
+strrev($str);
+```
+
+---
+
+### 🔹 Step 4 — Extract Substring
+
+The `substr()` function extracts a portion of the string.
+
+```php
+substr($str, 0, 3);
+```
+
+---
+
+## 💻 Program Code
 
 ```php
 <?php
@@ -26,7 +92,28 @@ echo "Substring: " . substr($str, 0, 3);
 ?>
 ```
 
-## 🚀 Output
+---
+
+## ▶️ How to Run the Program
+
+1️⃣ Install **XAMPP/WAMP**
+2️⃣ Save file as:
+
+```text
+string.php
+```
+
+3️⃣ Move file into **htdocs** folder
+4️⃣ Start Apache server
+5️⃣ Open browser:
+
+```text
+http://localhost/string.php
+```
+
+---
+
+## 🖥️ Sample Output
 
 ```text
 Original String: PHP Programming
@@ -35,30 +122,27 @@ Reverse: gnimmargorP PHP
 Substring: PHP
 ```
 
-## 🛠 Functions Used
+---
 
-| Function   | Purpose                          |
-| ---------- | -------------------------------- |
-| `strlen()` | Returns length of the string     |
-| `strrev()` | Reverses the string              |
-| `substr()` | Extracts a portion of the string |
+## ✨ Features
 
-## ▶️ How to Run
+✅ Simple and easy to understand
+✅ Uses built-in PHP functions
+✅ Beginner-friendly example
+✅ Demonstrates string operations
+✅ Dynamic output display
 
-1. Save the file as `string.php`
-2. Place it in the `htdocs` folder (XAMPP)
-3. Start Apache server
-4. Open in browser:
+---
 
-```text
-http://localhost/string.php
-```
+## 📚 Learning Outcomes
 
-## 📚 Learning Objective
+* Understanding PHP strings
+* Using string functions in PHP
+* Manipulating text data
+* Writing basic PHP programs
 
-This project helps beginners understand:
+---
 
-* PHP syntax
-* String handling
-* Built-in functions in PHP
+## 📌 Conclusion
 
+This project successfully demonstrates how PHP handles string operations using built-in functions like `strlen()`, `strrev()`, and `substr()`. It is a great beginner project for learning PHP basics.
